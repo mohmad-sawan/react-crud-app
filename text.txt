@@ -1,0 +1,3 @@
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'server,frontend' -c 'green,red' \"nodemon server.js\" \"npm run client\""
